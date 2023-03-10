@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">My diary</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login">login</string>
+    <string name="register_text">have and account? if not then Register here</string>
+    <string name="registration_success_message">REGISTRATION SUCCESS</string>
+    <string name="password_mismatch_error">PASSWORD OR EMAIL IS MISMATCH</string>
+    <string name="empty_fields_error">field is empty</string>
+    <string name="register_title">Register</string>
+    <string name="username_hint">Username</string>
+    <string name="password_confirmation_hint">Password Confirmation</string>
+    <string name="register_button_text">REGISTER</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Password confirmation</string>
+    <string name="register">REGISTER</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="search_hint">Search</string>
+    <string name="image">Image</string>
+    <string name="diary">Diary</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="archive">archive</string>
+    <string name="error_message">Error</string>
+    <string name="ok">OK</string>
+    <string name="title_add_diary">Title</string>
+    <string name="label_diary_title">Diary</string>
+    <string name="hint_diary_title">Diary Title</string>
+    <string name="label_diary_content">Diary Content</string>
+    <string name="hint_diary_content">Diary Content</string>
+    <string name="button_save">SAVE</string>
+    <string name="title_edit_diary">Edit Diary</string>
+    <string name="toast_empty_fields">Field is empty</string>
+    <string name="dialog_delete_negative">Delete</string>
+    <string name="toast_deleted">Toast delete</string>
+    <string name="dialog_delete_positive">dialog delete</string>
+    <string name="dialog_delete_message">delete message</string>
+    <string name="dialog_delete_title">delete title</string>
+    <string name="toast_saved">saved</string>
+    <string name="dialog_title_delete_diary">delete diary</string>
+    <string name="dialog_message_delete_diary">delete diary</string>
+    <string name="dialog_button_delete">delete diary</string>
+    <string name="dialog_button_cancel">button delete cancel</string>
+    <item name="delete_diary" type="integer">1234567890</item>
+</resources>

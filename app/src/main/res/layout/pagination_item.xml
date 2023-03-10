@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="diary"
+            type="com.example.mydiary.data.model.Diary" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/diary_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{diary.title}"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/diary_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{diary.content}"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/archive_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/archive"
+                android:text="@{diary.isArchived ? @string/unarchive : @string/archive}" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
